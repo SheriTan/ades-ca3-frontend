@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SPDiscuss",
+    "slug": "project",
+    "owner": "eritan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/spdisc.png",
+    "splash": {
+      "image": "./assets/sp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "ades.spdiscuss",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/spdisc.png",
+        "backgroundColor": "#121212"
+      }
+    },
+    "web": {
+      "favicon": "./assets/spdisc.png"
+    }
+  }
+}
