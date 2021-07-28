@@ -21,7 +21,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "ades.spdiscuss",
+      "package": "adesca3.spdiscuss",
       "adaptiveIcon": {
         "foregroundImage": "./assets/spdisc.png",
         "backgroundColor": "#121212"
