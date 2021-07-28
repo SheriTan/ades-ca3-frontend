@@ -5,7 +5,6 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 // This is a form page for user to fill up and create a post
 const AddPost = ({ route, navigation }) => {
-    // const url = 'http://127.0.0.1:19000';
     const url = 'https://spdiscuss.herokuapp.com';
     const { user } = route.params;
     const [postTitle, setPostTitle] = useState('');

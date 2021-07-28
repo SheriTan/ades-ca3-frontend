@@ -4,7 +4,6 @@ import Thread from '../components/thread';
 import axios from 'axios';
 
 const Home = ({ route, navigation }) => {
-    // const url = 'http://127.0.0.1:19000';
     const url = 'https://spdiscuss.herokuapp.com';
 
     const [threadList, setThreadList] = useState([]);

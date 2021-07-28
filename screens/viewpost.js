@@ -5,7 +5,6 @@ import Comment from '../components/comment';
 import axios from 'axios';
 
 const ViewPost = ({ route, navigation }) => {
-    // const url = 'http://127.0.0.1:19000';
     const url = 'https://spdiscuss.herokuapp.com';
     const { postObj, user } = route.params;
     const [uname, setUser] = useState();

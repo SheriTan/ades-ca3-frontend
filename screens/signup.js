@@ -3,7 +3,6 @@ import { StyleSheet, TextInput, Keyboard, Text, View, TouchableOpacity, Alert } 
 import axios from 'axios';
 
 const Register = ({ navigation }) => {
-    // const url = 'http://127.0.0.1:19000';
     const url = 'https://spdiscuss.herokuapp.com';
     const [uname, setUname] = useState('');
     const [pwd, setPwd] = useState('');
